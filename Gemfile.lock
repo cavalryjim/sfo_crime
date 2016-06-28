@@ -20,7 +20,10 @@ GEM
     motion-require (0.2.0)
     motion-support (0.2.6)
       motion-require (>= 0.0.6)
+    newclear (1.2)
+      reset-sim
     rake (10.4.2)
+    reset-sim (1.1.1)
     sugarcube (3.3.4)
 
 PLATFORMS
@@ -33,5 +36,6 @@ DEPENDENCIES
   bubble-wrap (= 1.7.1)
   formotion (= 1.8)
   motion-support (= 0.2.6)
+  newclear (= 1.2)
   rake
   sugarcube (= 3.3.4)

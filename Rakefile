@@ -28,16 +28,18 @@ Motion::Project::App.setup do |app|
   end
   
   app.identifier = 'com.sabotsolutions.sf-crime'
-  app.short_version = '1.0.2'
+  app.short_version = '1.1.2'
   app.version = app.short_version
+  
+  app.info_plist["UIRequiresFullScreen"] = true
   
   # SDK 8 for iOS 8 and above
   #app.sdk_version = '8.1'
   #app.deployment_target = '8.0'
   
   # SDK 8 for iOS 7 and above
-  app.sdk_version = '8.1'
-  app.deployment_target = '7.1'
+  #app.sdk_version = '8.1'
+  app.deployment_target = '8.0'
   
   app.device_family = [:iphone, :ipad]
   app.interface_orientations = [:portrait, :portrait_upside_down]

@@ -17,6 +17,7 @@ gem 'ProMotion-formotion', '0.1.6'
 # gem 'ProMotion-push', '~> 0.3' # Push Notifications
 # gem 'ProMotion-map', '~> 0.5'  # PM::MapScreen
 
+gem 'newclear', '1.2' # Completely wipe out the simulator and rebuild
 
 # JDavis: for deployment use - gem 'motion-appstore', '1.0.6'
 # https://github.com/HipByte/motion-appstore
